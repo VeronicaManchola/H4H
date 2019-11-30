@@ -5,7 +5,12 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  border-top: 3px || #979797;
+ 
+}
+
+.logo{
+  margin: auto;
+  margin-top: 5%;
 }
 
 .topBar-container{
@@ -17,7 +22,7 @@
   position: fixed;
   bottom: 100;
   width: 100%;
-  border-top: 3px || #979797;
+  
 }
 .fixed-bottom{
   text-align: justify;
@@ -27,11 +32,6 @@
   text-align: justify;
 }
 
-.titulo{
-  color: #555B92;
-  font-size: x-large;
-  padding-right: 14%;
-}
 
 .nav-icons {
   color: #555B92;
@@ -48,12 +48,6 @@
   color: #E8D258;
 }
 
-.campana{
-  color: #E8D258;
-  position: fixed;
-  right: 20px;
-  top: 32px;
-}
 .flecha{
   position: fixed;
   left: 0;

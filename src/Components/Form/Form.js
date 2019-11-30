@@ -61,7 +61,6 @@ getCapEndeudamiento = () => {
           <div className="container">
               <div className="row">
                   <div className="col-12">
-                      <h1>Sin nombre</h1>
                   </div>
               </div>
               <form onSubmit={this.onSubmit}>
@@ -97,13 +96,8 @@ getCapEndeudamiento = () => {
                       </div>
                   </div>
               </form>
-          </div>{/*
-        <input id="incoming" className={this.getClass()}></input>
-        <input id="outcoming" className={this.getClass()}></input>
-        <input id="name" className={this.getClass()}></input>
-        <input id="comuna" className={this.getClass()}></input>
-        <input id="age" className={this.getClass()}></input>
-        <button onClick={this.getCapEndeudamiento()}>Calcular</button>*/}
+          </div>
+        <button onClick={this.getCapEndeudamiento()}>Calcular</button>
       </div>
     )
   }

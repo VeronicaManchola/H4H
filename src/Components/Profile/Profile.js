@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import {BottomFixedNavbar, TopFixedNavbar} from '../Shared/Navbar';
+import Result from '../../img/RESULT.jfif'
+
 class Profile extends Component {
+  constructor(props){
+		super(props);
+		this.state = {
+		}
+		
+  }
   render(){
     return(
       <div>
-        <TopFixedNavbar />
-        <p>Este es Profile</p>
-        <BottomFixedNavbar/>
+        <img className="imgResult" src={Result} alt="img resultado" ></img>
       </div>
     )
   }

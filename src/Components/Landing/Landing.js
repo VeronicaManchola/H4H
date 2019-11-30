@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {TopFixedNavbar} from '../Shared/Navbar';
 import { Link } from 'react-router-dom';
 import './landing.css';
 import Carousel from 'nuka-carousel';
@@ -18,6 +19,7 @@ class Landing extends Component {
 	render() {
 		return(
 			<div className="body">
+				<TopFixedNavbar />
 				<Carousel className="CarrouselContainer m-auto" renderCenterLeftControls={({ previousSlide }) => (
 						<button onClick={previousSlide} className="slideBtn"><FontAwesomeIcon className="nav-icons flecha" icon="chevron-left"/></button>
 					)}
