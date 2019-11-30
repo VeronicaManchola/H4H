@@ -1,0 +1,61 @@
+.navbar-wrapper {
+  width: 100vw;
+  height: 10vh;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 3px || #979797;
+}
+
+.topBar-container{
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  padding-left: 25%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 100;
+  width: 100%;
+  border-top: 3px || #979797;
+}
+.fixed-bottom{
+  text-align: justify;
+}
+
+.fixed-top{
+  text-align: justify;
+}
+
+.titulo{
+  color: #555B92;
+
+    font-size: x-large;
+    padding-right: 14%;
+}
+
+.nav-icons {
+  color: #555B92;
+  font-size: 30px;
+  padding-left: 32px;
+  padding-right: 7px;
+}
+
+.nav-icon-active{
+  color: #E8D258;
+}
+
+.nav-icons :hover {
+  color: #E8D258;
+}
+
+.campana{
+  color: #E8D258;
+  position: fixed;
+  right: 20px;
+  top: 32px;
+}
+.flecha{
+  position: fixed;
+  left: 0;
+}
