@@ -5,7 +5,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faUsers, faUser, faBookOpen, faLock, faBell, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Landing from './Landing/Landing';
 import Main from './Main/Main';
-import Form from './Form/Form';
 import './App.css';
 
 library.add(faUsers, faUser, faBookOpen, faLock, faBell, faChevronLeft,  faChevronRight);
@@ -17,7 +16,6 @@ class App extends Component {
         <Router>
           <Route exact path="/" component={Landing}/>
           <Route path="/entrar" component={Main}/>
-          <Route path="/form" component={Form}/>
         </Router>
       </div>
     );
