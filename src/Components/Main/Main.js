@@ -16,8 +16,8 @@ class Main extends Component {
 		super();
 		this.state = {
       redirect: false,
-      showForm: false,
-      showProfile: true,
+      showForm: true,
+      showProfile: false,
       result: String
 		}
 		

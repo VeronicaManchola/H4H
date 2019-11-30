@@ -58,7 +58,7 @@ getCapEndeudamiento = () => {
     const { nombre, edad, tipo, ingreso, gastos } = this.state;
     return(
       <div>
-          <div className="container">
+          <div className="container mainFormContainer m-auto">
               <div className="row">
                   <div className="col-12">
                   </div>
@@ -66,38 +66,38 @@ getCapEndeudamiento = () => {
               <form onSubmit={this.onSubmit}>
                   <div className="form-group">
                       <div className="question d-block"  data-slide="0">
-                          <p>Hola cuentanos,<br/>¿cual es tu nombre?</p>
+                          <p className="title">Hola cuentanos,<br/>¿cual es tu nombre?</p>
                           <input type="text" className="form-control" id="nombre" name="user"/>
                       </div>
                       <div className="question d-none"  data-slide="1">
-                          <p>¿Cual es tu edad?</p>
+                          <p className="title">¿Cual es tu edad?</p>
                           <input type="text" className="form-control" id="edad" name="age" />
                       </div>
                       <div className="question d-none" data-slide="2">
-                          <p>¿Cual de las siguientes afirmaciones te representa?</p>
+                          <p className="title">¿Cual de las siguientes afirmaciones te representa?</p>
                           <button type="button" className="btn" id="tipo1" name="type" >Soy trabajador dependiente</button>
                           <button type="button" className="btn" id="tipo2" name="type" >Soy trabajador independiente</button>
                           <button type="button" className="btn" id="tipo3" name="type">Soy estudiante</button>
                           <button type="button" className="btn" id="tipo4" name="type">Soy jubilado</button>
                       </div>
                       <div className="question d-none" data-slide="3">
-                          <p>¿Cual es tu ingreso mensual liquido? </p>
+                          <p className="title">¿Cual es tu ingreso mensual liquido? </p>
                           <input type="number" className="form-control" id="ingreso" name="earnings"  />
                       </div>
                       <div className="question d-none" data-slide="4">
-                          <p>¿Cual es el total de sus gastos fijos mensuales?</p>
+                          <p className="title">¿Cual es el total de sus gastos fijos mensuales?</p>
                           <small>son aquellos gastos que debemos hacer, es decir, que son necesarios y que tenemos claro cuanto y cuando hay que pagarlos.</small>
                           <input type="text" className="form-control d-none" id="gastos" name="expenses"/>
                       </div>
                   </div>
                   <div className="row">
-                      <div className="col-6 mx-auto">
-                          <button type="submit" className="btn" onClick={this.changeSlide}>Siguiente</button>
+                      <div className="col-6 m-auto">
+                          <button type="submit" className="btn form-button" onClick={this.changeSlide}>Siguiente</button>
                       </div>
                   </div>
               </form>
           </div>
-        <button onClick={this.getCapEndeudamiento()}>Calcular</button>
+        {/* <button onClick={this.getCapEndeudamiento()}>Calcular</button> */}
       </div>
     )
   }
