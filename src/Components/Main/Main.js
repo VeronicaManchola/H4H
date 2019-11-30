@@ -19,7 +19,7 @@ class Main extends Component {
     return(
       <div className="body">
         <Form/>
-				<Profile style={{display: this.state.showProfile === true ? 'block' : 'none' }}/>
+        {this.state.showProfile ? <Profile /> : null }
       </div>
     )
   }
