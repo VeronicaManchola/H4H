@@ -1,25 +1,64 @@
 
 .landing-button{
-  border-radius: 25px;
   padding: 12px;
-  width: 211px !important;
+  width: 309px;
+  height: 41px;
   color: white;
-  left: 14%;
-  font-size: larger;
+  font-size: 17px;
   margin-top: 15px;
-  position: fixed;
-  background-color: #555B92;
+  background: #FF9500;
+  border-radius: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
-  font-weight: bold;
+  margin: auto;
+  position: relative;
+  left: -9%;
 }
 
 .CarrouselContainer{
-  margin: auto;
   margin-top: 4em;
+  margin-bottom: 2em;
   height: 70% !important;
+  width: 80% !important;
 }
   
 .body{
   height: 640px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+}
+
+.title{
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -1px;
+ 
+}
+
+.text{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 131%;
+  text-align: center;
+  color: #333333;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.imgLanding{
+  width: 276px;
+  height: 200px;
+  margin: auto;
+}
+
+.slideCard{
+  text-align: center;
+}
+
+.slideBtn{
+  border: none;
+  background: transparent;
 }
