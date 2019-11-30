@@ -10,7 +10,8 @@ class Form extends Component {
     }
   }
 
-    changeSlide() {
+    changeSlide(e) {
+      e.preventDefault()
         let slides = document.getElementsByClassName('question');
         let active = document.getElementsByClassName('question d-block');
         let slide = parseInt(active[0].dataset.slide) + 1;
