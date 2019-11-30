@@ -9,11 +9,11 @@ class Form extends Component {
     this.ref = firebase.firestore().collection('usersData');
     this.state = {
         capEndeudamiento: String,
-        nombre : '',
-        edad: '',
-        tipo: '',
-        ingreso: '',
-        gastos: ''
+        // nombre : '',
+        // edad: '',
+        // tipo: '',
+        // ingreso: '',
+        // gastos: ''
     }
   }
 
@@ -88,10 +88,9 @@ getCapEndeudamiento = () => {
           <div className="container">
               <div className="row">
                   <div className="col-12">
-                      <h1>Sin nombre</h1>
                   </div>
               </div>
-              <form onSubmit={this.onSubmit}>
+              {/* <form onSubmit={this.onSubmit}>
                   <div className="form-group">
                       <div>
                           <p>Hola cuentanos,<br/>¿cual es tu nombre?</p>
@@ -123,13 +122,8 @@ getCapEndeudamiento = () => {
                           <button type="submit" className="btn" onClick={this.changeSlide}>Siguiente</button>
                       </div>
                   </div>
-              </form>
+              </form> */}
           </div>
-        <input id="incoming" className={this.getClass()}></input>
-        <input id="outcoming" className={this.getClass()}></input>
-        <input id="name" className={this.getClass()}></input>
-        <input id="comuna" className={this.getClass()}></input>
-        <input id="age" className={this.getClass()}></input>
         <button onClick={this.getCapEndeudamiento()}>Calcular</button>
       </div>
     )
