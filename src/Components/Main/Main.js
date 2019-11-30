@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import './Main.scss'
 import Profile from '../Profile/Profile';
 import Form from '../Form/Form';
