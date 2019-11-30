@@ -1,0 +1,50 @@
+
+.selected {
+  margin-top: 5%;
+  margin-left: 2%;
+  position: relative;
+  animation:moving 2s;
+  -moz-animation:moving 2s; /* Firefox */
+  -webkit-animation:moving 2s; /* Safari and Chrome */ 
+}
+
+.crossBtn{
+  vertical-align: super !important;
+  margin-left: 15%;
+}
+
+@keyframes moving{
+  0%{
+    top: 20px;
+    opacity: 0;
+  } 
+  100%{
+    top:0px;
+    opacity: 1;
+  } 
+}
+@-moz-keyframes moving{
+  0%{
+    top: 20px;
+    opacity: 0;
+  } 
+  100%{
+    top:0px;
+    opacity: 1;
+  }  
+}
+@-webkit-keyframes moving{
+  0%{
+    top: 20px;
+    opacity: 0;
+  } 
+  100%{
+    top:0px;
+    opacity: 1;
+  } 
+}​
+
+.show {
+  opacity: 0;
+  pointer-events:none;
+}

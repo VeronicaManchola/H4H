@@ -1,0 +1,53 @@
+
+.body{
+  background-color: #E8D258;
+  height: 640px;
+}
+
+.logoImg{
+  width: 44%;
+  padding-left: 10%;
+  padding-right: 11%;
+  padding-top: 25%;
+  padding-bottom: 13%;
+}
+
+.userInput{
+  border-color: lightgrey;
+  border-radius: 25px;
+  background: white;
+  padding: 14px;
+  width: 200px;
+  height: 0px;
+  border-style: solid;
+  text-align: center;
+}
+.userInput::placeholder { color: lightslategray; font-size: 1em; }
+.paswordInput::placeholder { color: lightslategray; font-size: 1em; }
+
+.paswordInput{
+  border-color: lightgrey;
+  border-radius: 25px;
+  background: white;
+  padding: 14px;
+  width: 200px;
+  height: 0px;
+  border-style: solid;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.login-button{
+  border-radius: 25px;
+  padding: 12px;
+  width: 211px !important;
+  color: white;
+  left: 14%;
+  font-size: larger;
+  margin-top: 22%;
+  position: fixed;
+  background-color: #555B92;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
